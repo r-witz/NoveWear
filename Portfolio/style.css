@@ -1,0 +1,220 @@
+@import url(https://fonts.google.com/specimen/Ubuntu+Mono?classification=Monospace&stroke=Sans+Serif);
+
+:root {
+  --main-white-gray: #dcdbd8;
+  --main-blue-light: #3b7db3;
+  --main-blue-medium: #1a64a1;
+  --main-blue-dark: #143c5c;
+}
+
+body {
+  font-size: 10px;
+  font-family: "Ubuntu Mono", sans-serif;
+  background-color: var(--main-white-gray);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--main-blue-dark);
+  text-align: center;
+  padding: 2.5rem;
+  box-shadow: 0 0.2rem 0.5rem gray;
+}
+
+main {
+  border-radius: 3rem;
+  margin: 3rem;
+  background-color: white;
+  box-shadow: 0 0 0.3rem var(--main-blue-dark);
+}
+
+footer {
+  padding: 2rem;
+  background-color: var(--main-blue-dark);
+  box-shadow: 0 -0.2rem 0.5rem gray;
+}
+
+nav a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  padding: 0 3rem;
+}
+
+nav a:hover {
+  font-size: 1.7rem;
+}
+
+nav > div {
+  padding: 0.5rem 0;
+}
+
+#go-up {
+  position: absolute;
+  right: 0px;
+}
+
+h1,
+h2 {
+  padding: 2rem;
+  text-align: center;
+  text-shadow: 0 0.2rem 0.3rem var(--main-white-gray);
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  padding: 1rem 0 0 0;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-blue-dark);
+}
+
+td,
+th,
+table {
+  border: 0.2rem solid;
+  text-align: center;
+  box-shadow: 0 0 0.1rem gray;
+}
+
+input,
+textarea {
+  margin: 0.5rem 0;
+  width: 15%;
+}
+
+textarea {
+  width: 35%;
+  height: 10rem;
+}
+
+#about {
+  font-size: 1.3rem;
+}
+
+@media (orientation: landscape) {
+  #info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #exp-comp {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: start;
+  }
+}
+
+@media (orientation: portrait) {
+  #info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #exp-comp {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) and (orientation: portrait) {
+  #info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #exp-comp {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+
+#cv {
+  font-size: 1.3rem;
+}
+
+#contact-form {
+  font-size: 0.9rem;
+  text-shadow: 0 0.05rem 0.3rem black;
+  text-align: center;
+}
+
+#checkbox-button {
+  width: auto;
+  margin: 0 1%;
+}
+
+.required::before {
+  content: "* ";
+  color: #5c0000;
+}
+
+label:not(.required) {
+  color: var(--main-blue-dark);
+}
+
+:required {
+  border: 1px solid var(--main-blue-medium);
+}
+
+:optional {
+  border: 1px solid var(--main-blue-light);
+}
+
+:target {
+  text-decoration: underline var(--main-blue-dark);
+}
+
+:checked {
+  box-shadow: 0 0 0 2px var(--main-blue-dark);
+}
+
+#info > img {
+  border-radius: 50rem;
+  width: 35%;
+  height: 25%;
+}
+
+#cv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#frise {
+  overflow-x: auto;
+}
+
+#fieldset {
+  margin: auto;
+  margin-bottom: 0.7rem;
+  display: flex;
+  justify-content: center;
+  width: min-content;
+  height: min-content;
+}

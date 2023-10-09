@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio R.W</title>
+    <link rel="icon" href="./img/website-icon.jpg" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav>
+        <a href="../index.html" title="Acceuil du site" class="nav-button"
+          >Acceuil</a
+        >
+        <a href="./portfolio.html" title="Page Portfolio" class="nav-button"
+          >Portfolio</a
+        >
+      </nav>
+    </header>
+    <main>
+      <h1>Mon Portfolio</h1>
+      <section id="about">
+        <h2 id="about-hypertext">A propos</h2>
+        <div id="info">
+          <img src="./img/random.jpg" alt="Photo de Raphaël Witz" />
+          <ul title="Informations sur Raphaël Witz">
+            <li>Nom : Witz</li>
+            <li>Prénom : Raphaël</li>
+            <li>Age : 18 ans</li>
+            <li>
+              Email :
+              <a
+                title="Envoyer un mail à Raphaël Witz"
+                href="mailto:r.witz@proton.me"
+                >r.witz@proton.me</a
+              >
+            </li>
+            <li>
+              Téléphone :
+              <a
+                title="Numéro de Téléphone de Raphaël Witz"
+                href="tel:+33643319242"
+                >+33 6 43 31 92 42</a
+              >
+            </li>
+            <li>Localisation : Lille 59000, France</li>
+          </ul>
+        </div>
+      </section>
+      <section id="cv">
+        <section id="scolarité">
+          <h2 id="cv-hypertext">CV</h2>
+          <div id="frise">
+            <table>
+              <thead>
+                <tr>
+                  <th colspan="5">Frise de ma scolarité</th>
+                </tr>
+              </thead>
+              <tr>
+                <td>2007-2010</td>
+                <td>2010-2015</td>
+                <td>2015-2020</td>
+                <td>2020-2023</td>
+                <td>2023-...</td>
+              </tr>
+              <tr>
+                <td>Ecole Maternelle Jenlain</td>
+                <td>Ecole élémentaire Jenlain</td>
+                <td>Collège Saint-Anne Sebourg</td>
+                <td>Lycée Notre-Dame Valenciennes</td>
+                <td>Supinfo Lille</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+        <div id="exp-comp">
+          <section id="expériences">
+            <h3>Expériences</h3>
+            <div class="center-div">
+              <ul title="Expériences" class="center-list">
+                <li>Stage 2020, Altima</li>
+              </ul>
+            </div>
+          </section>
+          <section id="compéténces">
+            <h3>Compétences</h3>
+            <div class="center-div">
+              <ul title="Compétences" class="center-list">
+                <li>Certification Cambridge niveau B2</li>
+                <li>Python 3</li>
+                <li>C</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </section>
+      <section id="contact-form">
+        <h2 id="contact-form-hypertext">Formulaire de contact</h2>
+        <form
+          action="https://api.web3forms.com/submit"
+          method="post"
+          autocomplete="on"
+        >
+          <input
+            type="hidden"
+            name="access_key"
+            value="ad4b7d7f-508e-489c-a474-a067aac8d9b3"
+          />
+          <div>
+            <label for="name" class="required">Nom :</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              autocomplete="family-name"
+              required
+            />
+          </div>
+          <div>
+            <label for="surname">Prénom :</label>
+            <input
+              type="text"
+              id="surname"
+              name="surname"
+              autocomplete="given-name"
+            />
+          </div>
+          <div>
+            <label for="email" class="required">Email :</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              autocomplete="email"
+              required
+            />
+          </div>
+          <div>
+            <label for="telephone">Téléphone :</label>
+            <input
+              type="tel"
+              id="telephone"
+              name="telephone"
+              autocomplete="tel"
+            />
+          </div>
+          <div>
+            <label for="message" class="required">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <div id="fieldset">
+            <fieldset>
+              <legend>Sélectionner votre Age:</legend>
+
+              <div>
+                <input type="radio" id="18-" name="age" value="18-" />
+                <label for="18-">18-</label>
+              </div>
+
+              <div>
+                <input type="radio" id="18+" name="age" value="18+" />
+                <label for="18+">18+</label>
+              </div>
+            </fieldset>
+          </div>
+          <div>
+            <label for="recontact">J'accepte d'être recontacté</label>
+            <input type="checkbox" name="recontact" id="checkbox-button" />
+          </div>
+          <div>
+            <input type="submit" value="Envoyer" />
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <div>
+          <a title="Aller à la section A Propos" href="#about-hypertext"
+            >A propos</a
+          >
+          <a title="Retourner en haut de page" href="#header" id="go-up"
+            >Retour en haut</a
+          >
+        </div>
+        <div>
+          <a title="Aller à la section CV" href="#cv-hypertext">CV</a>
+        </div>
+        <div>
+          <a title="Aller à la section Contact" href="#contact-form-hypertext"
+            >Contact</a
+          >
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>
