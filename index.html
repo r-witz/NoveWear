@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/homepage.css" />
+    <title>NoveWear</title>
+  </head>
+  <body>
+    <header>
+      <input type="checkbox" id="menuCheckbox" />
+      <label for="menuCheckbox" id="menu-toggle" tabindex="0">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+      <a href="./index.html" id="brand">
+        <h1>NoveWear</h1>
+        <div>clothing brand</div>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li>
+            <a href="#" tabindex="0" id="collection"
+              ><span>Collection</span>
+              <img src="./assets/img/icons/down-arrow.svg" alt="dropdown arrow"
+            /></a>
+            <div id="dropdown-content">
+              <a href="#">Tops</a>
+              <a href="#">Dress</a>
+              <a href="#">Pants</a>
+              <a href="#">Coats</a>
+            </div>
+          </li>
+          <li><a href="#">Sustainability</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="img-container">
+        <img src="assets/img/products/coats/beige/walking-large.png" alt="Women in beige coat walking towards the camera while looking away on her side"/>
+        <div id="overlay-text">
+          <h2>Mocha Timeless Mantle</h2>
+          <a href="./products/coats/beige.html">New Arrival</a>
+        </div>
+      </div>
+      <h2>Best Sellers</h2>
+      <div id="product-card-frame">
+        <div class="product-card">
+          <img src="./assets/img/products/dress/white-holes/front-down.jpg" />
+          <div class="product-info">
+            <h3 class="product-title">Pristine Peek</h3>
+            <div class="product-subtitle">
+              <h4 class="product-description">Daring. Divine. Classic</h4>
+              <div class="price">$170</div>
+            </div>
+            <a href="" class="product-button">Product Page</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="./assets/img/products/dress/white/front-up.jpg" />
+          <div class="product-info">
+            <h3 class="product-title">Aurora Adore</h3>
+            <div class="product-subtitle">
+              <h4 class="product-description">Timeless Beauty. Lively Lace.</h4>
+              <div class="price">$190</div>
+            </div>
+            <a href="" class="product-button">Product Page</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="./assets/img/products/tops/black/side.jpg" />
+          <div class="product-info">
+            <h3 class="product-title">Eclipse Elegance</h3>
+            <div class="product-subtitle">
+              <h4 class="product-description">Evoke Envy. Timeless Beauty</h4>
+              <div class="price">$110</div>
+            </div>
+            <a href="" class="product-button">Product Page</a>
+          </div>
+        </div>
+      </div>
+      <h2>Collection</h2>
+      <div id="collection-grid">
+        <div class="collection-column">
+          <div class="img-frame column-1" id="img1">
+            <img src="./assets/img/products/pants/grey/front.jpg" alt="Women with gray formal pant">
+            <a href="">Pants</a>
+          </div>
+          <div class="img-frame column-1" id="img2">
+            <img src="./assets/img/products/tops/white/front-lay.jpg" alt="Women with white skirt laying her head on a wood chair">
+            <a href="">Tops</a>
+          </div>
+        </div>
+        <div class="collection-column">
+          <div class="img-frame column-2" id="img3">
+            <img src="./assets/img/products/dress/black/front-cold.jpg" alt="Women in black dress">
+            <a href="">Dress</a>
+          </div>
+          <div class="img-frame column-2" id="img4">
+            <img src="./assets/img/products/coats/beige/front.png" alt="Women in beige coat looking away">
+            <a href="">Coats</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
