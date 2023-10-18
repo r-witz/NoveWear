@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../../assets/img/icons/NoveWear.ico"
+    />
+    <link rel="stylesheet" href="../../assets/css/product.css" />
+    <title>NoveWear - Mocha Essence</title>
+  </head>
+  <body>
+    <header>
+      <input type="checkbox" id="menuCheckbox" />
+      <label for="menuCheckbox" id="menu-toggle" tabindex="0">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+      <a href="../../index.html" id="brand" title="homepage">
+        <h1>NoveWear</h1>
+        <div>clothing brand</div>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="../../index.html" title="homepage">Home</a></li>
+          <li>
+            <a
+              href="#"
+              tabindex="0"
+              id="collection"
+              title="collection dropdown menu"
+              ><span>Collection</span>
+              <img
+                src="../../assets/img/icons/down-arrow.svg"
+                alt="dropdown arrow"
+            /></a>
+            <div id="dropdown-content">
+              <a href="../../categories/tops.html" title="tops categorie"
+                >Tops</a
+              >
+              <a href="../../categories/dress.html" title="dress categorie"
+                >Dress</a
+              >
+              <a href="../../categories/pants.html" title="pants categorie"
+                >Pants</a
+              >
+              <a href="../../categories/coats.html" title="coats categorie"
+                >Coats</a
+              >
+            </div>
+          </li>
+          <li><a href="#" title="sustainability page">Sustainability</a></li>
+          <li>
+            <a href="../../support/support.html" title="support page"
+              >Support</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="product-presentation">
+        <div id="slider">
+          <div id="slides">
+            <div id="slide-1">
+              <img
+                src="../../assets/img/products/coats/beige/front.jpg"
+                alt="Women wearing a beige long coat looking away"
+              />
+            </div>
+            <div id="slide-2">
+              <img
+                src="../../assets/img/products/coats/beige/back.jpg"
+                alt="Women wearing a beige long coat facing her back to the camera"
+              />
+            </div>
+            <div id="slide-3">
+              <img
+                src="../../assets/img/products/coats/beige/walking-large.jpg"
+                alt="Women wearing a beige long coat walking towards the camera"
+              />
+            </div>
+          </div>
+
+          <div id="quick_access">
+            <a href="#slide-1" title="image 1">&nbsp;</a>
+            <a href="#slide-2" title="image 2">&nbsp;</a>
+            <a href="#slide-3" title="image 3">&nbsp;</a>
+          </div>
+        </div>
+        <div id="info-container">
+          <div class="box">
+            <h2 id="legend">Mocha Essence</h2>
+            <div id="description">
+              Experience the perfect blend of luxury and utility with NoveWear's
+              Mocha Essence. Exquisitely tailored to emanate a majestic form,
+              this coat seamlessly marries classic design elements with
+              contemporary aesthetics. Every thread, stitch, and fold has been
+              meticulously crafted to ensure you radiate elegance, whether
+              you're attending a black-tie event or simply running your daily
+              errands. Its neutral mocha shade serves as a versatile palette,
+              allowing you to pair it with a myriad of ensembles. Embrace a
+              piece that promises not just timeless appeal but also the comfort
+              to make it your daily wear. Dive into a world where fashion meets
+              functionality, and style is an everyday affair.
+            </div>
+          </div>
+          <div id="buying-box" class="box">
+            <h2 id="legend">Characteristics</h2>
+            <div id="characteristics">
+              <ul>
+                <li>
+                  <h3>Elegant Versatility:</h3>
+                  <div>
+                    The "Mocha Essence" coat is a testament to the art of
+                    understated sophistication. Whether you're stepping into a
+                    boardroom meeting, attending a special event, or simply
+                    strolling through the city, this coat exudes an air of poise
+                    and grace, ensuring you're always impeccably dressed.
+                  </div>
+                </li>
+                <li>
+                  <h3>Exceptional Craftsmanship:</h3>
+                  <div>
+                    We take immense pride in the craftsmanship behind this
+                    garment. Each "Mocha Essence" coat is meticulously tailored
+                    to perfection, ensuring a comfortable and flattering fit.
+                    The luxurious mocha hue complements various outfits, making
+                    it a versatile choice year-round.
+                  </div>
+                </li>
+                <li>
+                  <h3>Materials and Comfort:</h3>
+                  <div>
+                    We've sourced the finest materials to create this coat. The
+                    blend of quality fabrics provides warmth, comfort, and
+                    durability, all while maintaining a lightweight feel. The
+                    fabric drapes elegantly, further enhancing your natural
+                    grace.
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <form>
+              <label for="size-dropdown" hidden>Select a size:</label>
+              <select id="size-dropdown">
+                <option value="" selected disabled>Select a size</option>
+                <option value="xsmall">Extra-Small</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+                <option value="xlarge">X-Large</option>
+              </select>
+              <input
+                id="cart-button"
+                type="submit"
+                value="Add to Cart - $210"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+      <h2 id="recommendation">You may also like</h2>
+      <div id="product-card-frame">
+        <div class="product-card" id="first-card">
+          <img
+            src="../../assets/img/products/tops/white/side-lay.jpg"
+            alt="Women in a white shirt laying her arm on a chair"
+            loading="lazy"
+          />
+          <div class="product-info">
+            <h3 class="product-title">CasaBlanca Caress</h3>
+            <div class="product-subtitle">
+              <h4 class="product-description">Luminous. Eternal. Sleek.</h4>
+              <div class="price">$120</div>
+            </div>
+            <a
+              href="../tops/white.html"
+              class="product-button"
+              title="CasaBlanca Caress product page"
+              >Product Page</a
+            >
+          </div>
+        </div>
+        <div class="product-card">
+          <img
+            src="../../assets/img/products/pants/brown/side-stool.jpg"
+            alt="Women wearing brown textured pants and sitting on a stool"
+            loading="lazy"
+          />
+          <div class="product-info">
+            <h3 class="product-title">Sensual Monarchy</h3>
+            <div class="product-subtitle">
+              <h4 class="product-description">Indulge in Dominance.</h4>
+              <div class="price">$125</div>
+            </div>
+            <a
+              href="../pants/brown.html"
+              class="product-button"
+              title="Sensual Monarchy product button"
+              >Product Page</a
+            >
+          </div>
+        </div>
+        <div class="product-card" id="last-card">
+          <img
+            src="../../assets/img/products/dress/white-holes/side-down.jpg"
+            alt="Women down on the ground with his side facing the camera and wearing a white dress"
+            loading="lazy"
+          />
+          <div class="product-info">
+            <h3 class="product-title">Pristine Peek</h3>
+            <div class="product-subtitle">
+              <h4 class="product-description">Daring. Divine. Classic.</h4>
+              <div class="price">$170</div>
+            </div>
+            <a
+              href="../dress/white-holes.html"
+              class="product-button"
+              title="Pristine Peek product button"
+              >Product Page</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

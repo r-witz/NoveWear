@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../../assets/img/icons/NoveWear.ico"
+    />
+    <link rel="stylesheet" href="../../assets/css/product.css" />
+    <title>NoveWear - Eclipse Elegance</title>
+  </head>
+  <body>
+    <header>
+      <input type="checkbox" id="menuCheckbox" />
+      <label for="menuCheckbox" id="menu-toggle" tabindex="0">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+      <a href="../../index.html" id="brand" title="homepage">
+        <h1>NoveWear</h1>
+        <div>clothing brand</div>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="../../index.html" title="homepage">Home</a></li>
+          <li>
+            <a
+              href="#"
+              tabindex="0"
+              id="collection"
+              title="collection dropdown menu"
+              ><span>Collection</span>
+              <img
+                src="../../assets/img/icons/down-arrow.svg"
+                alt="dropdown arrow"
+            /></a>
+            <div id="dropdown-content">
+              <a href="../../categories/tops.html" title="tops categorie"
+                >Tops</a
+              >
+              <a href="../../categories/dress.html" title="dress categorie"
+                >Dress</a
+              >
+              <a href="../../categories/pants.html" title="pants categorie"
+                >Pants</a
+              >
+              <a href="../../categories/coats.html" title="coats categorie"
+                >Coats</a
+              >
+            </div>
+          </li>
+          <li><a href="#" title="sustainability page">Sustainability</a></li>
+          <li>
+            <a href="../../support/support.html" title="support page"
+              >Support</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="product-presentation">
+        <div id="slider">
+          <div id="slides">
+            <div id="slide-1">
+              <img
+                src="../../assets/img/products/tops/black/front.jpg"
+                alt="Women standing up in a black formal jacket"
+              />
+            </div>
+            <div id="slide-2">
+              <img
+                src="../../assets/img/products/tops/black/front-close.jpg"
+                alt="Women wearing a black jacket and standing close to the camera with a plant in her hands hiding her face"
+              />
+            </div>
+            <div id="slide-3">
+              <img
+                src="../../assets/img/products/tops/black/side.jpg"
+                alt="Women siting and wearing a black jacket"
+              />
+            </div>
+          </div>
+
+          <div id="quick_access">
+            <a href="#slide-1" title="image 1">&nbsp;</a>
+            <a href="#slide-2" title="image 2">&nbsp;</a>
+            <a href="#slide-3" title="image 3">&nbsp;</a>
+          </div>
+        </div>
+        <div id="info-container">
+          <div class="box">
+            <h2 id="legend">Eclipse Elegance</h2>
+            <div id="description">
+              Introducing "Eclipse Elegance" - a harmonious blend of style and
+              sophistication. Each thread is meticulously woven to capture the
+              essence of the night, evoking feelings of allure and mystery. This
+              top isn't just a garment; it's an experience. A statement. A
+              promise of enchantment that you wear. Its versatile design marries
+              well with both casual sophistication and regal opulence. When you
+              don the Eclipse Elegance, you don't just wear a top. You wear a
+              narrative - one of timeless beauty that's bound to evoke envy.
+            </div>
+          </div>
+          <div id="buying-box" class="box">
+            <h2 id="legend">Characteristics</h2>
+            <div id="characteristics">
+              <ul>
+                <li>
+                  <h3>Material:</h3>
+                  <div>
+                    Premium blend of silk and satin, offering a soft, shimmering
+                    finish.
+                  </div>
+                </li>
+                <li>
+                  <h3>Design:</h3>
+                  <div>
+                    Modern, streamlined cut with subtle drapery for a flattering
+                    fit.
+                  </div>
+                </li>
+                <li>
+                  <h3>Color:</h3>
+                  <div>
+                    Rich, deep black - representing the deep mysteries of the
+                    night.
+                  </div>
+                </li>
+                <li>
+                  <h3>Maintenance:</h3>
+                  <div>
+                    Dry-clean recommended. Retains its allure and sheen wear
+                    after wear.
+                  </div>
+                </li>
+                <li>
+                  <h3>Fit:</h3>
+                  <div>
+                    Tailored to perfection, ensuring comfort while making a
+                    statement.
+                  </div>
+                </li>
+                <li>
+                  <h3>Ethically Produced:</h3>
+                  <div>
+                    Crafted with care, ensuring fair practices at every step.
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <form>
+              <label for="size-dropdown" hidden>Select a size:</label>
+              <select id="size-dropdown">
+                <option value="" selected disabled>Select a size</option>
+                <option value="xsmall">Extra-Small</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+                <option value="xlarge">X-Large</option>
+              </select>
+              <input
+                id="cart-button"
+                type="submit"
+                value="Add to Cart - $110"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+      <h2 id="recommendation">You may also like</h2>
+      <div id="product-card-frame">
+        <div class="product-card" id="first-card">
+          <img
+            src="../../assets/img/products/dress/white/front-up.jpg"
+            alt="Women in a farm field wearing a blue sky dress with lace"
+            loading="lazy"
+          />
+          <div class="product-info">
+            <h3 class="product-title">Aurora Adore</h3>
+            <div class="product-subtitle">
+              <h4 class="product-description">Timeless Beauty. Lively Lace.</h4>
+              <div class="price">$190</div>
+            </div>
+            <a
+              href="../dress/white.html"
+              class="product-button"
+              title="Aurora Adore product page"
+              >Product Page</a
+            >
+          </div>
+        </div>
+        <div class="product-card">
+          <img
+            src="../../assets/img/products/tops/white/side-lay.jpg"
+            alt="Women in a white shirt laying her arm on a chair"
+            loading="lazy"
+          />
+          <div class="product-info">
+            <h3 class="product-title">CasaBlanca Caress</h3>
+            <div class="product-subtitle">
+              <h4 class="product-description">Luminous. Eternal. Sleek.</h4>
+              <div class="price">$120</div>
+            </div>
+            <a
+              href="./white.html"
+              class="product-button"
+              title="CasaBlanca Caress product page"
+              >Product Page</a
+            >
+          </div>
+        </div>
+
+        <div class="product-card" id="last-card">
+          <img
+            src="../../assets/img/products/pants/grey/front.jpg"
+            alt="Women in grey formal pants laying her back against a wall"
+            loading="lazy"
+          />
+          <div class="product-info">
+            <h3 class="product-title">Metropolitan Mist</h3>
+            <div class="product-subtitle">
+              <h4 class="product-description">Modern. Minimalist. Majestic.</h4>
+              <div class="price">$95</div>
+            </div>
+            <a
+              href="../pants/grey.html"
+              class="product-button"
+              title="Metropolitan Mist product page"
+              >Product Page</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

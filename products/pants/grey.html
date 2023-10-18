@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../../assets/img/icons/NoveWear.ico"
+    />
+    <link rel="stylesheet" href="../../assets/css/product.css" />
+    <title>NoveWear - Metropolitan Mist</title>
+  </head>
+  <body>
+    <header>
+      <input type="checkbox" id="menuCheckbox" />
+      <label for="menuCheckbox" id="menu-toggle" tabindex="0">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+      <a href="../../index.html" id="brand" title="homepage">
+        <h1>NoveWear</h1>
+        <div>clothing brand</div>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="../../index.html" title="homepage">Home</a></li>
+          <li>
+            <a
+              href="#"
+              tabindex="0"
+              id="collection"
+              title="collection dropdown menu"
+              ><span>Collection</span>
+              <img
+                src="../../assets/img/icons/down-arrow.svg"
+                alt="dropdown arrow"
+            /></a>
+            <div id="dropdown-content">
+              <a href="../../categories/tops.html" title="tops categorie"
+                >Tops</a
+              >
+              <a href="../../categories/dress.html" title="dress categorie"
+                >Dress</a
+              >
+              <a href="../../categories/pants.html" title="pants categorie"
+                >Pants</a
+              >
+              <a href="../../categories/coats.html" title="coats categorie"
+                >Coats</a
+              >
+            </div>
+          </li>
+          <li><a href="#" title="sustainability page">Sustainability</a></li>
+          <li>
+            <a href="../../support/support.html" title="support page"
+              >Support</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="product-presentation">
+        <div id="slider">
+          <div id="slides">
+            <div id="slide-1">
+              <img
+                src="../../assets/img/products/pants/grey/front-walking.jpg"
+                alt="Women in grey formal pants walking towards the camera"
+              />
+            </div>
+            <div id="slide-2">
+              <img
+                src="../../assets/img/products/pants/grey/front.jpg"
+                alt="Women in grey formal pants laying her back against a wall"
+              />
+            </div>
+            <div id="slide-3">
+              <img
+                src="../../assets/img/products/pants/grey/side-walking.jpg"
+                alt="Women in grey formal pants walking"
+              />
+            </div>
+          </div>
+
+          <div id="quick_access">
+            <a href="#slide-1" title="image 1">&nbsp;</a>
+            <a href="#slide-2" title="image 2">&nbsp;</a>
+            <a href="#slide-3" title="image 3">&nbsp;</a>
+          </div>
+        </div>
+        <div id="info-container">
+          <div class="box">
+            <h2 id="legend">Metropolitan Mist</h2>
+            <div id="description">
+              Dive into the essence of urban sophistication with the
+              "Metropolitan Mist" trousers by NoveWear. These pants capture the
+              heartbeat of the city - powerful, unwavering, and always in style.
+              Crafted meticulously with a keen attention to detail, they radiate
+              a minimalist elegance that stands out, yet seamlessly blends with
+              any ensemble. The understated light grey hue exudes majesty,
+              making these trousers an essential addition to any discerning
+              gentleman's wardrobe. At a competitive price point, without
+              compromising on quality, Metropolitan Mist promises to be your
+              go-to choice for formal occasions and elegant soirées alike.
+              Indulge in a garment that's not just a piece of clothing, but an
+              experience; an ode to modernity intertwined with classic charm.
+            </div>
+          </div>
+          <div id="buying-box" class="box">
+            <h2 id="legend">Characteristics</h2>
+            <div id="characteristics">
+              <ul>
+                <li>
+                  <h3>Timeless Design:</h3>
+                  <div>
+                    The Metropolitan Mist trousers feature a classic, clean
+                    silhouette that transcends trends and stands the test of
+                    time. Perfect for any formal occasion or corporate setting,
+                    they are a timeless addition to your wardrobe.
+                  </div>
+                </li>
+                <li>
+                  <h3>Premium Quality:</h3>
+                  <div>
+                    We've selected only the finest materials to create these
+                    trousers. The fabric is soft to the touch and exudes an air
+                    of sophistication. Every stitch and seam is meticulously
+                    crafted to ensure durability and long-lasting wear.
+                  </div>
+                </li>
+                <li>
+                  <h3>Comfort and Fit:</h3>
+                  <div>
+                    Designed for comfort without sacrificing style, these
+                    trousers offer a tailored fit that complements your
+                    physique. The waistband ensures a snug yet comfortable fit,
+                    and the straight leg design offers ease of movement while
+                    maintaining a sharp appearance.
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <form>
+              <label for="size-dropdown" hidden>Select a size:</label>
+              <select id="size-dropdown">
+                <option value="" selected disabled>Select a size</option>
+                <option value="xsmall">Extra-Small</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+                <option value="xlarge">X-Large</option>
+              </select>
+              <input id="cart-button" type="submit" value="Add to Cart - $95" />
+            </form>
+          </div>
+        </div>
+      </div>
+      <h2 id="recommendation">You may also like</h2>
+      <div id="product-card-frame">
+        <div class="product-card" id="first-card">
+          <img
+            src="../../assets/img/products/dress/white/front-up.jpg"
+            alt="Women in a farm field wearing a blue sky dress with lace"
+            loading="lazy"
+          />
+          <div class="product-info">
+            <h3 class="product-title">Aurora Adore</h3>
+            <div class="product-subtitle">
+              <h4 class="product-description">Timeless Beauty. Lively Lace.</h4>
+              <div class="price">$190</div>
+            </div>
+            <a
+              href="../dress/white.html"
+              class="product-button"
+              title="Aurora Adore product page"
+              >Product Page</a
+            >
+          </div>
+        </div>
+        <div class="product-card">
+          <img
+            src="../../assets/img/products/pants/brown/side-stool.jpg"
+            alt="Women wearing brown textured pants and sitting on a stool"
+            loading="lazy"
+          />
+          <div class="product-info">
+            <h3 class="product-title">Sensual Monarchy</h3>
+            <div class="product-subtitle">
+              <h4 class="product-description">Indulge in Dominance.</h4>
+              <div class="price">$125</div>
+            </div>
+            <a
+              href="./brown.html"
+              class="product-button"
+              title="Sensual Monarchy product page"
+              >Product Page</a
+            >
+          </div>
+        </div>
+        <div class="product-card" id="last-card">
+          <img
+            src="../../assets/img/products/tops/white/side-lay.jpg"
+            alt="Women in a white shirt laying her arm on a chair"
+            loading="lazy"
+          />
+          <div class="product-info">
+            <h3 class="product-title">CasaBlanca Caress</h3>
+            <div class="product-subtitle">
+              <h4 class="product-description">Luminous. Eternal. Sleek.</h4>
+              <div class="price">$120</div>
+            </div>
+            <a
+              href="../tops/white.html"
+              class="product-button"
+              title="CasaBlanca Caress product page"
+              >Product Page</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
