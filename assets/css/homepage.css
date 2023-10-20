@@ -372,14 +372,3 @@ div + h2 {
     text-align: center;
   }
 }
-
-/* TV */
-@media screen and (min-width: 1800px) {
-  :root {
-    font-size: 20px;
-  }
-
-  header {
-    padding: 4rem;
-  }
-}
