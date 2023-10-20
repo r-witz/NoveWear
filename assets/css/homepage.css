@@ -359,7 +359,7 @@ div + h2 {
 /* Tablet */
 @media screen and (min-width: 776px) and (max-width: 1200px) {
   :root {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   header {
