@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/img/icons/NoveWear.ico"
+    />
+    <link rel="stylesheet" href="./assets/css/homepage.css" />
+    <title>NoveWear</title>
+  </head>
+  <body>
+    <header>
+      <input type="checkbox" id="menuCheckbox" />
+      <label for="menuCheckbox" id="menu-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+      <a href="./index.html" id="brand" class="slide-in-top" title="homepage">
+        <h1>NoveWear</h1>
+        <div>clothing brand</div>
+      </a>
+      <nav>
+        <ul class="slide-in-top">
+          <li>
+            <a href="./index.html" class="nav-button" title="homepage">Home</a>
+          </li>
+          <li>
+            <a href="#" id="collection" title="collection dropdown menu"
+              ><span class="nav-button">Collection</span>
+              <img src="./assets/img/icons/down-arrow.svg" alt="dropdown arrow"
+            /></a>
+            <div id="dropdown-content">
+              <a href="./categories/tops.html" title="tops categorie">Tops</a>
+              <a href="./categories/dress.html" title="dress categorie"
+                >Dress</a
+              >
+              <a href="./categories/pants.html" title="pants categorie"
+                >Pants</a
+              >
+              <a href="./categories/coats.html" title="coats categorie"
+                >Coats</a
+              >
+            </div>
+          </li>
+          <li>
+            <a
+              href="./sustainability/sustainability.html"
+              class="nav-button"
+              title="sustainability page"
+              >Sustainability</a
+            >
+          </li>
+          <li>
+            <a
+              href="./support/support.html"
+              class="nav-button"
+              title="support page"
+              >Support</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="img-container">
+        <img
+          src="./assets/img/products/coats/beige/walking-large.jpg"
+          alt="Women wearing a beige long coat walking towards the camera"
+        />
+        <a
+          href="./products/coats/beige.html"
+          id="overlay-text"
+          title="Mocha Essence product page"
+        >
+          <h2>Mocha Essence</h2>
+          <div id="button">New Arrival</div>
+        </a>
+      </div>
+      <h2>Best Sellers</h2>
+      <div id="product-card-frame">
+        <a
+          href="./products/dress/white-holes.html"
+          class="product-card"
+          id="first-card"
+          title="Pristine Peek product page"
+        >
+          <img
+            src="./assets/img/products/dress/white-holes/front-down.jpg"
+            loading="lazy"
+            alt="Women crouching and facing the camera and wearing a white dress"
+          />
+          <div class="product-info">
+            <h3 class="product-title">Pristine Peek</h3>
+            <div class="product-subtitle">
+              <h4 class="product-description">Daring. Divine. Classic</h4>
+              <div class="price">$170</div>
+            </div>
+          </div>
+        </a>
+        <a
+          href="./products/dress/white.html"
+          class="product-card"
+          title="Aurora Adore product page"
+        >
+          <img
+            src="./assets/img/products/dress/white/front-up.jpg"
+            loading="lazy"
+            alt="Women standing up in a field and wearing a white dress with lace"
+          />
+          <div class="product-info">
+            <h3 class="product-title">Aurora Adore</h3>
+            <div class="product-subtitle">
+              <h4 class="product-description">Timeless Beauty. Lively Lace.</h4>
+              <div class="price">$190</div>
+            </div>
+          </div>
+        </a>
+        <a
+          href="./products/tops/black.html"
+          class="product-card"
+          id="last-card"
+          title="Eclipse Elegance product page"
+        >
+          <img
+            src="./assets/img/products/tops/black/side.jpg"
+            loading="lazy"
+            alt="Women siting and wearing a black jacket"
+          />
+          <div class="product-info">
+            <h3 class="product-title">Eclipse Elegance</h3>
+            <div class="product-subtitle">
+              <h4 class="product-description">Evoke Envy. Timeless Beauty</h4>
+              <div class="price">$110</div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <h2>Collection</h2>
+      <div id="collection-grid">
+        <div class="collection-column">
+          <div class="img-frame column-1" id="img1">
+            <img
+              src="./assets/img/products/pants/grey/front.jpg"
+              loading="lazy"
+              alt="Women in grey formal pants laying her back against a wall"
+            />
+            <a
+              href="./categories/pants.html"
+              class="nav-button button-black"
+              title="pants categorie"
+              >Pants</a
+            >
+          </div>
+          <div class="img-frame column-1" id="img2">
+            <img
+              src="./assets/img/products/tops/white/front-lay.jpg"
+              loading="lazy"
+              alt="Women in a white shirt laying her head on the seat of a chair"
+            />
+            <a
+              href="./categories/tops.html"
+              class="nav-button button-black"
+              title="tops categorie"
+              >Tops</a
+            >
+          </div>
+        </div>
+        <div class="collection-column">
+          <div class="img-frame column-2" id="img3">
+            <img
+              src="./assets/img/products/dress/black/front-cold.jpg"
+              loading="lazy"
+              alt="Women in a sleek black dress with her arms crossed"
+            />
+            <a
+              href="./categories/dress.html"
+              class="nav-button button-black"
+              title="dress categorie"
+              >Dress</a
+            >
+          </div>
+          <div class="img-frame column-2" id="img4">
+            <img
+              src="./assets/img/products/coats/beige/front.jpg"
+              loading="lazy"
+              alt="Women wearing a beige long coat looking away"
+            />
+            <a
+              href="./categories/coats.html"
+              class="nav-button button-black"
+              title="coats categorie"
+              >Coats</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <nav>
+        <div>
+          <div>Explore</div>
+          <ul>
+            <li>
+              <a
+                href="./index.html"
+                title="NoveWear's Homepage"
+                class="nav-button"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="./sustainability/sustainability.html"
+                title="Sustainability page"
+                class="nav-button"
+                >Sustainability</a
+              >
+            </li>
+            <li>
+              <a
+                href="./support/support.html"
+                title="Support page"
+                class="nav-button"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div>Categories</div>
+          <ul>
+            <li>
+              <a
+                href="./categories/tops.html"
+                title="top categorie"
+                class="nav-button"
+                >Tops</a
+              >
+            </li>
+            <li>
+              <a
+                href="./categories/dress.html"
+                title="dress categorie"
+                class="nav-button"
+                >Dress</a
+              >
+            </li>
+            <li>
+              <a
+                href="./categories/pants.html"
+                title="pant categorie"
+                class="nav-button"
+                >Pants</a
+              >
+            </li>
+            <li>
+              <a
+                href="./categories/coats.html"
+                title="coat categorie"
+                class="nav-button"
+                >Coats</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div>Socials</div>
+          <ul>
+            <li>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                title="NoveWear's Instragram"
+                class="nav-button"
+                >Instragram</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.twitter.com"
+                target="_blank"
+                title="NoveWear's Twitter"
+                class="nav-button"
+                >Twitter</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.pinterest.com"
+                target="_blank"
+                title="NoveWear's Pinterest"
+                class="nav-button"
+                >Pinterest</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                title="NoveWear's Facebook"
+                class="nav-button"
+                >Facebook</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>
