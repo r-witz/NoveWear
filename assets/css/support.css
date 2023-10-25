@@ -27,10 +27,12 @@ a {
 
 /* Header Styles */
 header {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2.5rem;
+  z-index: 2;
 }
 
 /* Brand Styles */
