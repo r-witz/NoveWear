@@ -522,14 +522,13 @@ nav li > a:after {
     margin: 2rem 0;
   }
 
-  .nav-button:hover:after,
-  .nav-button:focus:after {
+  .nav-button:after {
     width: 0;
   }
 
-  * {
-    animation: none !important;
-    transition: none !important;
+  .slide-in-top,
+  .slide-in-bottom {
+      animation: none;
   }
 }
 
