@@ -85,20 +85,24 @@
               <input
                 type="text"
                 id="name"
+                class="input"
                 name="name"
                 autocomplete="name"
                 required
               />
+              <span class="form-bar"></span>
               <label for="name">Name</label>
             </div>
             <div class="input-container">
               <input
                 type="tel"
                 id="phone"
+                class="input"
                 name="phone"
                 autocomplete="tel"
                 required
               />
+              <span class="form-bar"></span>
               <label for="phone">Phone Number</label>
             </div>
           </div>
@@ -106,19 +110,23 @@
             <input
               type="email"
               id="email"
+              class="input"
               name="email"
               autocomplete="email"
               required
             />
+            <span class="form-bar"></span>
             <label for="email">Email</label>
           </div>
-          <div id="row3" class="input-container">
+          <div id="row3" class="message-input">
             <textarea id="message" name="message" required></textarea>
             <label for="message">Message</label>
           </div>
-        </div>
-        <div id="row4">
-          <input type="submit" value="Send Message" />
+          <div id="row4">
+            <button type="submit">
+              <span class="button-text">Submit</span>
+            </button>
+          </div>
         </div>
       </form>
     </main>
@@ -144,10 +152,7 @@
               >
             </li>
             <li>
-              <a
-                href="./support.html"
-                title="Support page"
-                class="nav-button"
+              <a href="./support.html" title="Support page" class="nav-button"
                 >Contact</a
               >
             </li>
