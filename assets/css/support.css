@@ -289,6 +289,7 @@ label {
 
 /* Submit Button */
 button {
+  cursor: pointer;
   border: none;
   width: 100%;
   background: #242424;
